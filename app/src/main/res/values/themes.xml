@@ -1,0 +1,33 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- FurtherAssistActivity -->
+	<style name="FurtherAssistActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- AfterAddToBagActivity -->
+	<style name="AfterAddToBagActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TagActivity -->
+	<style name="TagActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ShopActivity -->
+	<style name="ShopActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- WalkCallShopRETURNActivity -->
+	<style name="WalkCallShopRETURNActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- WelcomewalkCallShopActivity -->
+	<style name="WelcomewalkCallShopActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- WalkMenuReturnActivity -->
+	<style name="WalkMenuReturnActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- InitialwalkMenuActivity -->
+	<style name="InitialwalkMenuActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

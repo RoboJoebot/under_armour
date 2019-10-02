@@ -1,0 +1,165 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/initialwalkmenu_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/initialwalk_menu_activity_initialwalkmenu_constraint_layout_background_color">
+
+	<ImageView
+		android:id="@+id/womenbutton_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:src="@drawable/womenbutton"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/shoesbutton_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="397dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/shoesbutton"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/womenbutton_image_view" />
+
+	<ImageView
+		android:id="@+id/aboutbutton_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="500dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/aboutbutton"
+		app:layout_constraintBottom_toTopOf="@+id/shirts_image_view"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.115" />
+
+	<ImageView
+		android:id="@+id/menbutton_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="menClick"
+		android:scaleType="centerCrop"
+		android:src="@drawable/menbutton"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/callbutton2_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="home"
+		android:scaleType="centerCrop"
+		android:src="@drawable/callbutton2"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/topleftsquare_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:src="@drawable/topleftsquare"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<ImageView
+		android:id="@+id/bottomrightsquare_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="330dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bottomrightsquare"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/accessories_image_view"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:onClick="goAccessories"
+		android:scaleType="centerCrop"
+		android:src="@drawable/accessories"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="1.0" />
+
+	<ImageView
+		android:id="@+id/bottoms_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="goBottoms"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bottoms"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/backbutton1_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/initialwalk_menu_activity_backbutton1_image_view_margin_bottom"
+		android:onClick="goShop"
+		android:scaleType="center"
+		android:src="@drawable/backbutton1"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent" />
+
+	<ImageView
+		android:id="@+id/outerwear_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="255dp"
+		android:onClick="goOuterwear"
+		android:scaleType="centerCrop"
+		android:src="@drawable/outerwear"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/jackets_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="514dp"
+		android:onClick="goJackets"
+		android:scaleType="centerCrop"
+		android:src="@drawable/jackets"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="@+id/bottoms_image_view"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/shirts_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="780dp"
+		android:onClick="goShirts"
+		android:scaleType="centerCrop"
+		android:src="@drawable/shirts"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/ualogo2_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="1110dp"
+		android:onClick="back1"
+		android:scaleType="center"
+		android:src="@drawable/ualogo2"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

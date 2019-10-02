@@ -1,0 +1,29 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">Under Armour App</string>
+	
+	<!-- FurtherAssistActivity -->
+	<string name="further_assist_activity_title"></string>
+	
+	<!-- AfterAddToBagActivity -->
+	<string name="after_add_to_bag_activity_title"></string>
+	
+	<!-- TagActivity -->
+	<string name="tag_activity_title"></string>
+	
+	<!-- ShopActivity -->
+	<string name="shop_activity_title"></string>
+	
+	<!-- WalkCallShopRETURNActivity -->
+	<string name="walk_call_shop_returnactivity_title"></string>
+	
+	<!-- WelcomewalkCallShopActivity -->
+	<string name="welcomewalk_call_shop_activity_title"></string>
+	
+	<!-- WalkMenuReturnActivity -->
+	<string name="walk_menu_return_activity_title"></string>
+	
+	<!-- InitialwalkMenuActivity -->
+	<string name="initialwalk_menu_activity_title"></string>
+</resources>

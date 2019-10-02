@@ -1,0 +1,58 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<dimen name="material_spacing_small">8dp</dimen>
+	<dimen name="material_spacing_medium">16dp</dimen>
+	<dimen name="material_spacing_large">24dp</dimen>
+	<dimen name="material_bottom_sheet_item_size">56dp</dimen>
+	<dimen name="material_bottom_sheet_item_text_size">16sp</dimen>
+	
+	<!-- FurtherAssistActivity -->
+	<dimen name="further_assist_activity_nobutton_image_view_margin_end">47dp</dimen>
+	<dimen name="further_assist_activity_nobutton_image_view_margin_bottom">14dp</dimen>
+	<dimen name="further_assist_activity_yesbutton_image_view_margin_start">55dp</dimen>
+	<dimen name="further_assist_activity_yesbutton_image_view_margin_bottom">14dp</dimen>
+	<dimen name="further_assist_activity_ualogo3_image_view_margin_top">8dp</dimen>
+	
+	<!-- AfterAddToBagActivity -->
+	<dimen name="after_add_to_bag_activity_pickupicon_image_view_margin_top">8dp</dimen>
+	<dimen name="after_add_to_bag_activity_pickupicon_image_view_margin_end">10dp</dimen>
+	<dimen name="after_add_to_bag_activity_ualogo3_image_view_margin_top">8dp</dimen>
+	
+	<!-- TagActivity -->
+	<dimen name="tag_activity_tryonbuttin_image_view_margin_end">6dp</dimen>
+	<dimen name="tag_activity_ualogo3_image_view_margin_top">8dp</dimen>
+	<dimen name="tag_activity_addtobagbutton_image_view_margin_start">6dp</dimen>
+	
+	<!-- ShopActivity -->
+	<dimen name="shop_activity_img40361_image_view_margin_top">30dp</dimen>
+	<dimen name="shop_activity_ualogo3_image_view_margin_top">2dp</dimen>
+	
+	<!-- WalkCallShopRETURNActivity -->
+	<dimen name="walk_call_shop_returnactivity_shopbutton_image_view_margin_end">-54dp</dimen>
+	<dimen name="walk_call_shop_returnactivity_walkbutton_image_view_margin_start">-8dp</dimen>
+	
+	<!-- WelcomewalkCallShopActivity -->
+	<dimen name="welcomewalk_call_shop_activity_bottomtriangle_image_view_margin_start">-31dp</dimen>
+	<dimen name="welcomewalk_call_shop_activity_bottomtriangle_image_view_margin_top">64dp</dimen>
+	<dimen name="welcomewalk_call_shop_activity_bottomtriangle_image_view_margin_end">-31dp</dimen>
+	<dimen name="welcomewalk_call_shop_activity_walkbutton_image_view_margin_start">-8dp</dimen>
+	<dimen name="welcomewalk_call_shop_activity_shopbutton_image_view_margin_end">-54dp</dimen>
+	
+	<!-- WalkMenuReturnActivity -->
+	<dimen name="walk_menu_return_activity_aboutbutton_image_view_margin_top">111dp</dimen>
+	<dimen name="walk_menu_return_activity_shoesbutton_image_view_margin_top">112dp</dimen>
+	
+	<!-- InitialwalkMenuActivity -->
+	<dimen name="initialwalk_menu_activity_shoesbutton_image_view_margin_top">46dp</dimen>
+	<dimen name="initialwalk_menu_activity_backbutton1_image_view_margin_bottom">10dp</dimen>
+	<dimen name="initialwalk_menu_activity_ualogo2_image_view_margin_start">-5dp</dimen>
+	<dimen name="initialwalk_menu_activity_ualogo2_image_view_margin_top">1dp</dimen>
+	<dimen name="initialwalk_menu_activity_bottomrightsquare_image_view_margin_top">27dp</dimen>
+	<dimen name="initialwalk_menu_activity_jackets_image_view_margin_start">8dp</dimen>
+	<dimen name="initialwalk_menu_activity_ualogo3_image_view_margin_top">28dp</dimen>
+	<dimen name="initialwalk_menu_activity_ualogo3_image_view_margin_end">-155dp</dimen>
+	<dimen name="initialwalk_menu_activity_aboutbutton_image_view_margin_top">70dp</dimen>
+	<dimen name="initialwalk_menu_activity_bottoms_image_view_margin_end">12dp</dimen>
+	<dimen name="initialwalk_menu_activity_shirts_image_view_margin_start">-7dp</dimen>
+</resources>
